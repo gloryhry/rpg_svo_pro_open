@@ -1,0 +1,8 @@
+services:
+  rpg_svo_pro_open:
+    image: ghcr.io/gloryhry/rpg_svo_pro_open:latest
+    container_name: svo_pro
+    volumes:
+      - .:/catkin_ws/src/rpg_svo_pro_open
+    tty: true
+    stdin_open: true
